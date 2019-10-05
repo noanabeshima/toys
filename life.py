@@ -16,8 +16,8 @@ def life(A):
     ifDead = (neighbors == 3).astype(int)
     return ifLive*(A)+ifDead*(1-A)
 
-PPS = 2
-Y, X = 1080, 1920
+PPS = 4
+Y, X = 540, 960
 Y, X = int(Y/2), int(X/2)
 p = .1
 
